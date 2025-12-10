@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra, Papel e Tesoura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Pedra, Papel e Tesoura</h1>
+    </header>
+
+    <main>
+
+        <!-- Botões -->
+        <section id="botoes">
+            <button class="btn" data-move="pedra">
+                <img src="https://mediaproxy.tvtropes.org/width/1200/https://static.tvtropes.org/pmwiki/pub/images/cover2_11.jpg"
+                    alt="Pedra" width="150" height="100">
+            </button>
+
+            <button class="btn" data-move="papel">
+                <img src="data:image/jpeg;base64,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"
+                    alt="Papel" width="150" height="100">
+            </button>
+
+            <button class="btn" data-move="tesoura">
+                <img src="https://www.pontoxtecidos.com.br/static/567/sku/produtos-tecidos-circulo-tesouras-tesoura-confort-preto-21-5-cm--p-1566573858384.jpg"
+                    alt="Tesoura" width="150" height="100">
+            </button>
+        </section>
+
+        <!-- Resultado -->
+        <section id="resultado">
+            <p>Você escolheu: <span id="user-chose">---</span></p>
+            <p>Computador escolheu: <span id="pc-chose">---</span></p>
+            <h2 id="winner"></h2>
+        </section>
+
+        <!-- Placar -->
+        <section id="scoreBoard">
+            <p>Você: <span id="user-score">0</span></p>
+            <p>Computador: <span id="pc-score">0</span></p>
+        </section>
+
+    </main>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
