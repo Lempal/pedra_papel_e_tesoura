@@ -1,36 +1,40 @@
-🪨📄✂️ Pedra, Papel e Tesoura
+# Pedra, Papel e Tesoura
+Um mini–jogo divertido feito com HTML, CSS e JavaScript
 
-Um mini-jogo simples de Pedra, Papel e Tesoura feito em HTML, CSS e JavaScript, onde o jogador enfrenta o computador.
-E sim: a pedra é o The Rock, porque por que não? 😎💪
+## Sobre o Projeto
 
-🚀 Funcionalidades
+Este é um simples (e estiloso 😎) jogo de Pedra, Papel e Tesoura, onde o jogador enfrenta o computador.
+O destaque está no easter egg da Pedra, que usa a imagem do The Rock.
+Porque… rock… pedra… você entendeu 😂
 
-O jogador escolhe entre Pedra, Papel ou Tesoura
+## Funcionalidades
 
-O computador faz uma escolha aleatória
+Escolha sua jogada (Pedra, Papel ou Tesoura)
 
-O jogo mostra:
+Computador joga aleatoriamente
 
-A escolha do jogador
+Mostra o vencedor da rodada
 
-A escolha do computador
-
-O vencedor da rodada
-
-Placar automático que soma pontos
+Placar automático
 
 Interface simples e intuitiva
 
-🧠 Como funciona
+Easter egg muito bem colocado: The Rock como Pedra
 
-O JavaScript:
+## Como funciona
 
-Identifica qual botão o jogador clicou
+O JavaScript faz tudo de forma bem direta:
 
-Sorteia aleatoriamente a jogada do computador
+Lê a jogada clicada pelo usuário
 
-Compara as duas escolhas
+Sorteia a jogada do computador
 
-Atualiza o resultado e o placar na tela
+Compara as escolhas
 
-Tudo isso com poucas linhas de código.
+Atualiza:
+
+Jogada do usuário
+
+Jogada do computador
+
+Resultado da rodada
